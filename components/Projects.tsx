@@ -52,101 +52,8 @@ export default function Projects() {
 }
 
 const blogContent = [
-  {
-    title: "FingerIt",
-    description:
-      "A Platform to improve typing speed,featuring a custom character mode where users can input chars to practise on words having those chars to build muscle memory,one can also challenge friends in a realtime typing test.",
-    image: "/fingerit.png",
-    techstack: [
-      {
-        name: "NextJs",
-        color: "#61dbfb",
-        img: "/nxt.png",
-      },
-      {
-        name: "Typescript",
-        color: "#007acc",
-        img: "/typescript-icon.svg",
-      },
-      {
-        name: "React-query",
-        color: "#61dbfb",
-        img: "/react-query.svg",
-      },
-      {
-        name: "Framer Motion",
-        color: "#010101",
-        img: "/framer.png",
-      },
-      {
-        name: "TailwindCSS",
-        color: "#06b6d4",
-        img: "/tailwind.png",
-      },
-      {
-        name: "WebSocket",
-        color: "#010101",
-        img: "/webs.png",
-      },
-      {
-        name: "Postgresql",
-        color: "#336791",
-        img: "/postgres.png",
-      },
-      {
-        name: "Prisma",
-        color: "#2d3748",
-        img: "/image.png",
-      },
-    ],
-    github: "https://github.com/Vilen23/fingerit",
-    live: "https://fingerit.vercel.app/",
-  },
-  {
-    title: "Scribble",
-    description:
-      "This project lets user create rooms for realtime doodling and chatting",
-    image: "/scribble.png",
-    techstack: [
-      {
-        name: "NextJS",
-        color: "#61dbfb",
-        img: "/nxt.png",
-      },
-      {
-        name: "Typescript",
-        color: "#007acc",
-        img: "/typescript-icon.svg",
-      },
-      {
-        name: "TailwindCSS",
-        color: "#06b6d4",
-        img: "/tailwind.png",
-      },
-      {
-        name: "Framer Motion",
-        color: "#67e8f9",
-        img: "/framer.png",
-      },
-      {
-        name: "WebSocket",
-        color: "#67e8f9",
-        img: "/webs.png",
-      },
-      {
-        name: "Postgresql",
-        color: "#336791",
-        img: "/postgres.png",
-      },
-      {
-        name: "Prisma",
-        color: "#2d3748",
-        img: "/image.png",
-      },
-    ],
-    github: "https://github.com/Vilen23",
-    live: "https://scribble-lilac.vercel.app/",
-  },
+ 
+  
   {
     title: "Medium",
     description:
@@ -189,14 +96,15 @@ const blogContent = [
         img: "/image.png",
       },
     ],
-    github: "https://github.com/Vilen23/Medium",
-    live: "https://medium-zeta.vercel.app/",
+    github: "https://github.com/Manav2209/Medium",
+    live: "",
   },
   {
-    title: "Socialy",
+    title: "Anomynous Feedback",
     description:
-      "A social media app where users can post their photos and stories.Users can follow other users and like their posts.",
-    image: "/socialy.png",
+      
+      "Share your thoughts and ideas anonymously! Provide honest feedback to help us improve and deliver better content for you.",
+    image: "/feedback.png",
     techstack: [
       {
         name: "NextJs",
@@ -208,11 +116,7 @@ const blogContent = [
         color: "#007acc",
         img: "/typescript-icon.svg",
       },
-      {
-        name: "Socket.io",
-        color: "#010101",
-        img: "/socket.png",
-      },
+     
       {
         name: "TailwindCSS",
         color: "#06b6d4",
@@ -229,8 +133,8 @@ const blogContent = [
         img: "/image.png",
       },
     ],
-    github: "https://github.com/Vilen23/Socialy",
-    live: "https://socialy-production.up.railway.app/",
+    github: "https://github.com/Manav2209/feedback-message",
+    live: "",
   },
   {
     title: "SnipIt",
@@ -259,7 +163,7 @@ const blogContent = [
         img: "/typescript-icon.svg",
       },
     ],
-    github: "https://github.com/Vilen23/SnipIt",
-    live: "https://snip-it-blond.vercel.app/",
+    github: "https://github.com/Manav2209/SnipIt",
+    live: "",
   },
 ];

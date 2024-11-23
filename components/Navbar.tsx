@@ -16,9 +16,9 @@ export default function Navbar() {
             {"</>"}
           </span>{" "}
           <div>
-            <span>S</span>
+            <span>M</span>
             <span className="text-white font-normal text-xl uppercase ">
-              hivam
+              anav
             </span>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function Navbar() {
             <GoProjectRoadmap />
           </span>
         </div>
-        <a
+         <a
           href="/Resume.pdf"
           download
           className="text-xl text-white cursor-pointer hidden md:flex"
