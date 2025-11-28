@@ -1,8 +1,7 @@
 import React from "react";
 import { Space_Grotesk } from "next/font/google";
 import Image from "next/image";
-import { DirectionAwareHover } from "./ui/direction-aware-hover";
-import { MdOnlinePrediction } from "react-icons/md";
+import { PiVideoLight } from "react-icons/pi";
 import { GithubIcon } from "lucide-react";
 import { motion } from "framer-motion";
 import { ProjectsDirHover } from "./ui/direction-aware-hover copy";
@@ -14,7 +13,7 @@ export interface BlogContent {
   image: string;
   techstack: { name: string; color: string; img: string }[];
   github: string;
-  live: string;
+  demo: string;
 }
 
 export default function Card({ blogContent }: { blogContent: BlogContent }) {
@@ -69,13 +68,13 @@ export default function Card({ blogContent }: { blogContent: BlogContent }) {
                 damping: 20,
               }}
               className="px-3 py-2 text-2xl text-[#67e8f9] flex gap-2 items-center cursor-pointer"
-              onClick={() => window.open(blogContent.live)}
+              onClick={() => window.open(blogContent.demo)}
             >
               {" "}
               <span>
-                <MdOnlinePrediction />
+                <PiVideoLight/>
               </span>
-              Live
+              Demo
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.2 }}

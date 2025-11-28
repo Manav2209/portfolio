@@ -52,18 +52,17 @@ export default function Projects() {
 }
 
 const blogContent = [
- 
-  
+
   {
-    title: "Medium",
+    title: "Predix",
     description:
-      "A Medium clone where users can write and share their stories with others.Can share their photos and stories with others.",
-    image: "/medium.png",
+    "A prediction market platform where users can trade YES/NO shares in real-time, with live market depth and automated transaction matching.",
+    image: "/images/Predix.png",
     techstack: [
       {
-        name: "ReactJs",
+        name: "NextJs",
         color: "#61dbfb",
-        img: "/react.svg",
+        img: "/nxt.png",
       },
       {
         name: "TailwindCSS",
@@ -76,16 +75,6 @@ const blogContent = [
         img: "/typescript-icon.svg",
       },
       {
-        name: "Firebase",
-        color: "#ffca28",
-        img: "/firebase.png",
-      },
-      {
-        name: "Cloudflare workers",
-        color: "#f38020",
-        img: "/cloudflare.png",
-      },
-      {
         name: "Postgresql",
         color: "#336791",
         img: "/postgres.png",
@@ -95,14 +84,23 @@ const blogContent = [
         color: "#2d3748",
         img: "/image.png",
       },
+      {
+        name:"Redis",
+        color:"#dc382d",
+        img:"/redis.png",
+      },
+      {
+        name:"WebSockets",
+        color:"#2d3748",
+        img: "/webs.png",
+      }
     ],
-    github: "https://github.com/Manav2209/Medium",
-    live: "",
+    github: "https://github.com/Manav2209/Predix",
+    demo: "https://drive.google.com/file/d/1fDaTrglvRaTPbJFB7XIOW1B3W1awEYKo/view?usp=sharing",
   },
   {
-    title: "Anomynous Feedback",
+    title: "Exness",
     description:
-      
       "Share your thoughts and ideas anonymously! Provide honest feedback to help us improve and deliver better content for you.",
     image: "/feedback.png",
     techstack: [
@@ -116,7 +114,51 @@ const blogContent = [
         color: "#007acc",
         img: "/typescript-icon.svg",
       },
-     
+      {
+        name: "TailwindCSS",
+        color: "#06b6d4",
+        img: "/tailwind.png",
+      },
+      {
+        name: "Postgresql",
+        color: "#336791",
+        img: "/postgres.png",
+      },
+      {
+        name: "Prisma",
+        color: "#2d3748",
+        img: "/image.png",
+      },
+      {
+        name: "Redis",
+        color: "#dc382d",
+        img: "/redis.png",
+      },
+      {
+        name:"WebSockets",
+        color:"#2d3748",
+        img: "/webs.png",
+      },
+    ],
+    github: "https://github.com/Manav2209/exness",
+    demo: "https://drive.google.com/file/d/1TCOLTwsV2FcAa7A5B0qpGSJNd5SnpB-c/view?usp=drive_link",
+  },
+  {
+    title: "Anomynous Feedback",
+    description:
+      "Share your thoughts and ideas anonymously! Provide honest feedback to help us improve and deliver better content for you.",
+    image: "/feedback.png",
+    techstack: [
+      {
+        name: "NextJs",
+        color: "#61dbfb",
+        img: "/nxt.png",
+      },
+      {
+        name: "Typescript",
+        color: "#007acc",
+        img: "/typescript-icon.svg",
+      },
       {
         name: "TailwindCSS",
         color: "#06b6d4",
@@ -134,18 +176,19 @@ const blogContent = [
       },
     ],
     github: "https://github.com/Manav2209/feedback-message",
-    live: "",
+    demo: "https://drive.google.com/file/d/1fDaTrglvRaTPbJFB7XIOW1B3W1awEYKo/view?usp=sharing",
   },
   {
-    title: "SnipIt",
+    title: "Ryde",
     description:
-      "A code snippet manager to save and share code snippets.One can save picture of their code and share it with others.",
+    "A cross-platform ride-hailing app that enables real-time booking, live tracking, fare estimation, and secure in-app payments.",
+
     image: "/snipit.png",
     techstack: [
       {
-        name: "NextJs",
+        name: "ReactNative",
         color: "#61dbfb",
-        img: "/nxt.png",
+        img: "/react.svg",
       },
       {
         name: "TailwindCSS",
@@ -153,17 +196,56 @@ const blogContent = [
         img: "/tailwind.png",
       },
       {
-        name: "React",
-        color: "#ffca28",
-        img: "/react.svg",
+        name: "Typescript",
+        color: "#007acc",
+        img: "/typescript-icon.svg",
+      },
+    ],
+    github: "https://github.com/Manav2209/ryde",
+    demo: "https://drive.google.com/file/d/1z2UAYjR0nytKmzES5BmKeieWR4sJ4ihv/view?usp=sharing",
+  },
+  {
+    title: "FlipFrame",
+    description:
+    "An AI-powered animation platform that converts natural language prompts into academic animations using Gemini and Manim.",
+
+    image: "/feedback.png",
+    techstack: [
+      {
+        name: "NextJs",
+        color: "#61dbfb",
+        img: "/nxt.png",
       },
       {
         name: "Typescript",
         color: "#007acc",
         img: "/typescript-icon.svg",
       },
+      {
+        name: "TailwindCSS",
+        color: "#06b6d4",
+        img: "/tailwind.png",
+      },
+      {
+        name: "Postgresql",
+        color: "#336791",
+        img: "/postgres.png",
+      },
+      {
+        name: "Prisma",
+        color: "#2d3748",
+        img: "/image.png",
+      },
+      {
+        name: "Python",
+        color: "#2d3748",
+        img: "/python.svg",
+      },
+     
+     
     ],
-    github: "https://github.com/Manav2209/SnipIt",
-    live: "",
-  },
+    github: "https://github.com/Manav2209/FlipFrame",
+    demo: "",
+  }
+ 
 ];

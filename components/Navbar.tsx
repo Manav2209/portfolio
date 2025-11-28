@@ -49,19 +49,19 @@ export default function Navbar() {
           </span>
         </div>
          <a
-          href="/Resume.pdf"
-          download
+          href="https://drive.google.com/file/d/1OR5BWmYkeDjpBjBXuwRhJ8fuEw3-wZvD/view?usp=sharing"
+          target="_blank" 
           className="text-xl text-white cursor-pointer hidden md:flex"
         >
           CV
         </a>
         <a
-          href="/Resume.pdf"
-          download
+          href="https://drive.google.com/file/d/1OR5BWmYkeDjpBjBXuwRhJ8fuEw3-wZvD/view?usp=sharing"
+          target="_blank" 
           className="text-white text-2xl md:hidden"
         >
           <IoDocumentOutline />
-        </a>
+        </a>  
       </BackgroundGradient>
     </div>
   );
