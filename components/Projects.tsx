@@ -183,7 +183,7 @@ const blogContent = [
     description:
     "A cross-platform ride-hailing app that enables real-time booking, live tracking, fare estimation, and secure in-app payments.",
 
-    image: "/snipit.png",
+    image: "/images/Ryde.jpg",
     techstack: [
       {
         name: "ReactNative",
