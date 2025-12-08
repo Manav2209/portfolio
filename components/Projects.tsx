@@ -209,7 +209,7 @@ const blogContent = [
     description:
     "An AI-powered animation platform that converts natural language prompts into academic animations using Gemini and Manim.",
 
-    image: "/feedback.png",
+    image: "/images/FlipFrame.png",
     techstack: [
       {
         name: "NextJs",
